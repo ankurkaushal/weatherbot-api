@@ -7,7 +7,7 @@ use GuzzleHttp\Client;
 
 $application = new Application();
 
-$application['access_key'] = '3c27c41d7a2fe74c8a9a4ef95934e6d6';
+$application['access_key'] = '';
 
 $application['weather'] = function () use ($application) {
    $client = new Client();
@@ -17,8 +17,8 @@ $application['weather'] = function () use ($application) {
 
 
 $application->get('/weather', function(Request $request) use ($application) {
-    $lat  = $request->query->get('lat');
-    $lon  = $request->query->get('lon');
+    $lat = $request->query->get('lat');
+    $lon = $request->query->get('lon');
 
     $parameters = [
         'lat'   => $lat,

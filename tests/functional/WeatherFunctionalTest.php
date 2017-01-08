@@ -28,5 +28,4 @@ class WeatherFunctionalTest extends \Silex\WebTestCase
 
         $this->assertNotEquals(200, $client->getResponse()->getStatusCode());
     }
-
 }
