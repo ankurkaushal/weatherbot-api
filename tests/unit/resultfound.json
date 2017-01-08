@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": -79.77,
+        "lat": 43.68
+    },
+    "weather": [
+        {
+            "id": 620,
+            "main": "Snow",
+            "description": "light shower snow",
+            "icon": "13n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 271.47,
+        "pressure": 1015,
+        "humidity": 86,
+        "temp_min": 271.15,
+        "temp_max": 272.15
+    },
+    "visibility": 9656,
+    "wind": {
+        "speed": 6.2,
+        "deg": 270
+    },
+    "clouds": {
+        "all": 90
+    },
+    "dt": 1482889740,
+    "sys": {
+        "type": 1,
+        "id": 3721,
+        "message": 0.1946,
+        "country": "CA",
+        "sunrise": 1482929534,
+        "sunset": 1482961792
+    },
+    "id": 5907364,
+    "name": "Brampton",
+    "cod": 200
+}
