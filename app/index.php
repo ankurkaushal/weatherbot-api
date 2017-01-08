@@ -15,7 +15,6 @@ $application['weather'] = function () use ($application) {
    return new Weatherbot\Weather($client);
 };
 
-
 $application->get('/weather', function(Request $request) use ($application) {
     $lat = $request->query->get('lat');
     $lon = $request->query->get('lon');
